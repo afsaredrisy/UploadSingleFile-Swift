@@ -32,12 +32,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .white;
+        self.view.backgroundColor = UIColor(red: 250, green: 245, blue: 250, alpha: 1);
         
         self.selectedImageView = {
             let rect = CGRect(x: 20, y: 50, width: vw-40, height: vw-40),
             item = UIImageView(frame: rect);
             item.backgroundColor     = .gray;
+            item.contentMode         = .scaleAspectFill;
             item.layer.cornerRadius  = 10;
             item.layer.borderWidth   = 1;
             item.layer.borderColor   = UIColor.gray.cgColor;
