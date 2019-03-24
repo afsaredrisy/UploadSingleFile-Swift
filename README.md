@@ -1,8 +1,7 @@
 # Upload Single File
 Upload file to Server by Swift &amp; node.js
 <br/>
-<br/>
-### 主要展示功能
+#### 主要展示功能
 ・透過 UIImagePickerController 選取照片<br/>
 ・透過 Bundle.main.url 取得照片<br/>
 ・透過 URLSession 上傳照片<br/>
