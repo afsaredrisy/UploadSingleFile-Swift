@@ -9,4 +9,4 @@ Upload files to Server by Swift &amp; node.js
 ・透過 node.js 接收照片<br/>
 <br/>
 <br/>
-![image](https://github.com/chiuchingwei/UploadFiles/blob/master/sample.gif)
+![image](https://github.com/chiuchingwei/UploadSingleFile/blob/master/sample.gif)
