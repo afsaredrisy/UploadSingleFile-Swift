@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {},
+  "dependencies": {
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "core-js": "^2.6.5",
+    "express": "^4.16.4",
+    "firebase": "^5.8.5",
+    "firebase-admin": "^7.0.0",
+    "md5": "^2.2.1",
+    "mysql": "^2.16.0",
+    "nodemailer": "^5.1.1",
+    "randomstring": "^1.1.5"
+  },
+  "cloud-repo-tools": {
+    "requiresKeyFile": true,
+    "requiresProjectId": true,
+    "requiredEnvVars": [
+      "MYSQL_USER",
+      "MYSQL_PASSWORD",
+      "MYSQL_DATABASE",
+      "POSTGRES_USER",
+      "POSTGRES_PASSWORD",
+      "POSTGRES_DATABASE"
+    ]
+  },
+  "devDependencies": {},
+  "description": "for test"
+}
