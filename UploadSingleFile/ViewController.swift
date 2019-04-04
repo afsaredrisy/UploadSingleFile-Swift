@@ -18,7 +18,7 @@ class ViewController: UIViewController {
      > 相簿請求
      Privacy - Photo Library Usage Description
      > 開放http
-     ----- 2017.1.1 開始，若無https 則無法上架 -----
+     ----- 2017.1.1 開始需透過ssl 傳輸才可上架 -----
      App Transport Security Settings
      - Allow Arbitrary Loads : YES
      */

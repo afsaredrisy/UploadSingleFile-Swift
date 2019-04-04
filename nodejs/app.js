@@ -5,14 +5,14 @@ const multer     = require('multer')
 var upload = multer({ 
 	storage: multer.diskStorage({
 		destination: function (req, file, cb) {
-			cb(null, '/Users/pardn_chiu/Desktop/sample/UploadSingleFile/nodejs/image');
+			cb(null, '/Users/pardn_chiu/Desktop/UploadSingleFile-Swift/nodejs/image');
 		},
 		filename: function (req, file, cb) {
 			cb(null, file.originalname+'-'+Date.now()+file.mimetype); 
 		}
 	}) 
 })
-app.post('/upload', upload.single('uploadImage'), function(req, res, next){
+app.post('/upload', upload.array('uploadImage', 2), function(req, res, next){
 	res.json({'success':1, 'msg':'成功上傳'})
 });
 
