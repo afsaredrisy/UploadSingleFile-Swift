@@ -9,7 +9,7 @@
   "license": "ISC",
   "repository": {},
   "dependencies": {
-    "async": "^2.6.2",
+    "async": "^2.6.4",
     "body-parser": "^1.18.3",
     "core-js": "^2.6.5",
     "express": "^4.16.4",
